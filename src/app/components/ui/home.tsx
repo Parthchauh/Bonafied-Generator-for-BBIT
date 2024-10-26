@@ -107,7 +107,6 @@ export function SignupFormDemo() {
     const semesterName = semester; // From your input state
   
     // Add the statement about the bonafide student
-    const academicYear = `${lastExam}-${parseInt(lastExam) + 1}`; // Automatically generate academic year
     const bonafideText = `is a Bonafide student of this institute pursuing his/her study in  `;
   
     // Add bonafide text
